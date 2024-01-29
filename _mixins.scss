@@ -1,0 +1,9 @@
+//Afin d'obtenir le responsive vous devrez prévoir un mixin qui vous permettra de générer les règles Media Queries pour les différentes résolutions
+//triangle mixin
+//@param{Direction} $direction - orientation du triangle 'up', 'right', 'down' ou 'left'
+//@param {Color} $color Couleur du triangle
+//@param {size} $size [0.5rem par defaut] - Taille du triangle
+//@param {position} $position [relative par défaut] - Position du triangle
+
+@mixin triangle($direction, $color, $size: 0.5rem, $position: relative) {
+}
